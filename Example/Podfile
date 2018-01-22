@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JSTakePhoto_Example' do
+  pod 'JSTakePhoto', :path => '../'
+
+  target 'JSTakePhoto_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
