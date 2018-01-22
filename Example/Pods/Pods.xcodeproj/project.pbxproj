@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06918C38C1A4339EF7354FA926DB79A3 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = A680D04EF83C1D5B29FC66A4E689D1AF /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		141D20CA6204BCE5445FC34B97B945C9 /* UIView+BSVKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A67066A162AEEACF58F55909ADCF4CD8 /* UIView+BSVKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		169841EBF0E87595E21F1D8696B5A249 /* Pods-JSTakePhoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE387580BAF9C77384458DB199F5868 /* Pods-JSTakePhoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23EAC52248ADD69E5EEB75B6A8DEA331 /* Pods-JSTakePhoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF45F84CDA77867178E26B43B02B1E0 /* Pods-JSTakePhoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C6D7FC1D2B6CC3668F479DD4BDCFBB9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC712D1455D023726BD9816815C4CBF5 /* ReplaceMe.m */; };
+		33820E287A88811BDB3BFFE3B1AB2564 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3DB36091CB6227543A60B2718B815791 /* README.md */; };
+		3D3EA78D2A16B432B99963D4CD496BD7 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 50385E3EC5C38BA9A982F6CEDC7240CD /* WebViewJavascriptBridgeBase.m */; };
+		3FE4721B8B1F05B57919EEBBC40FF573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		400148F622EF0901C4A7205CD90C7BBD /* Pods-JSTakePhoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 336FA0B4A6F29F33C4C98F2306CF57AC /* Pods-JSTakePhoto_Tests-dummy.m */; };
+		45F89EFEA13546C9D4E0E9F24F55F760 /* UIView+BSVKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737E562206595E908CC89E11F2F24A7 /* UIView+BSVKAdditions.m */; };
+		47B5904AE14133E078249F3A90C9F98A /* BSVKCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46508FB171602B442278618060BA4012 /* BSVKCameraController.m */; };
+		4A091448E49D31327DB2B606AFAB1BC7 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3223572C73396810C2D46CFF83CB8749 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9D58ED34DB074432824D9809C64AA2 /* BSVKCameraTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D71825CB63D84C67AD40926A35009A /* BSVKCameraTypeModel.m */; };
+		4E1FB68034C1007D370AE25BFEA24B7B /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 55B8E8EA418035F6D1B1B1D6D36AF862 /* LICENSE */; };
+		55BE59F51F0D474B3472F59588B66D29 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D67D10621D285D94AF8D69E49B00E8 /* WebViewJavascriptBridge.m */; };
+		62EEF27D4CD50A17945B0533BCC3176C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		63C159DD012887CB7289953BA3A86F7F /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F02E3AD446CD3DE443CDE4B2326CF3A /* WebViewJavascriptBridge_JS.m */; };
+		63CB55C5E8D6EE39A592FA8D644AC233 /* BSVKBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFDD1862CE9C5A0B6295F7F00F40B88 /* BSVKBackGroundView.m */; };
+		692368AC292209A027C7C44FAFC048B0 /* UIView+BSVKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C16DABCE2D824DFB3AD4755341F9CAF /* UIView+BSVKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BAD958B2E793E1807E279ABA8F620A5 /* BSVKWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03538B04B7F32D4E28048BE029E4F421 /* BSVKWebController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		747463180A2E1FA4904228883423AC4C /* IMYWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D3409CC2B57B900A28910E5DC5D6E2 /* IMYWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769839194F3C513F83BBC06D69FD38AD /* BSVKCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = B118B9EEBC4916F7E1F980ACBCE3E7EF /* BSVKCameraView.m */; };
+		7781B9ACDA05253985B9BA3FC455C277 /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D9BACD62B95D9D1A0CBA7E37683022 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7996C18405D17E67D201327EF2A8437C /* JSTakePhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F68116A40FED83AA5D0A13CD2C53C9A /* JSTakePhoto-dummy.m */; };
+		9B8A1169F36136DFC71678EE68AD940A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D22DAE8B5AA631E83E599D80DC478F2 /* IMY_NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 98906DDDC0D939CD0FE3DB535CD2D0DE /* IMY_NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5892A6D43758A0F6D8F6723E37B5BF /* BSVKCameraPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE1ACF6179AFE80767FB2364F92831B /* BSVKCameraPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5D31BE05D80D82CCAB672F5CEE16713 /* BSVKCameraPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B8B623DAB94B50B4F427F6235B6247 /* BSVKCameraPreview.m */; };
+		BDDEDA22C2D971B96CA29A837266E629 /* BSVKBackGroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 175D4F54E144D6D452DC07BCFF967A50 /* BSVKBackGroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C594746F655A57AEDD7594A53EB560E3 /* BSVKCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6A3D9468F00838AF507FD3B01BA301 /* BSVKCameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6A75A222CF89A74D91A12DF367BA324 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C672631147466FDF4E15EF252A0C83 /* WKWebViewJavascriptBridge.m */; };
+		C6D0D1B47D5FCA007AEFAAA4D83D37AC /* BSVKWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF20E92C18C8B20DA9E65574AC52520 /* BSVKWebController.m */; };
+		CC904F577735ABE3AEDD2065038D3A96 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABECC7F66E989C83667DBB70FA9E166 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCCA24F07A716D39A120D1989A441BA8 /* Pods-JSTakePhoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F77BD1BAA077C6E0CCE86FD41F4CB5 /* Pods-JSTakePhoto_Example-dummy.m */; };
+		D38F0230815512D34D803FA4DEE6F379 /* IMY_NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4301EEDE4CC74839673ADEA373F0A /* IMY_NJKWebViewProgress.m */; };
+		D43856F75D0459B584C4E884EF658FE5 /* UIView+BSVKHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4049CAE44288D7F1FA0547C4E8BCDC8B /* UIView+BSVKHUD.m */; };
+		EAEFD8261686E96A30055D178D4E8C71 /* BSVKCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45659B715CE7E03A24CEBCD4FAE3CA6F /* BSVKCameraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03193FF921D740F7D6586F1A46E0F6F /* IMYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2841BC94C6A3AC7BA509C38FA81EC7CD /* IMYWebView.m */; };
+		F5089A2BF89D934D2592DFAD9137C57D /* JSTakePhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC707802D4051BEDB8C6820D71704EC3 /* JSTakePhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F76EF5BF16D28EC8BBB910AFF34D7770 /* BSVKCameraTypeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 550648AB2DB869540D6CEA8E2324659B /* BSVKCameraTypeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CAEC69DB34718A59A720140D34E2305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D7EF3C3CF18942CB64914C9C9CA926;
+			remoteInfo = JSTakePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03538B04B7F32D4E28048BE029E4F421 /* BSVKWebController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSVKWebController.h; sourceTree = "<group>"; };
+		084851A5BB0CC9658A7CA8D5AC43CE5C /* Pods-JSTakePhoto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSTakePhoto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F431615FB18A85A771A8DC893DDD57C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F3FD914C27DB8F9634A4007D747F3E /* Pods_JSTakePhoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSTakePhoto_Tests.framework; path = "Pods-JSTakePhoto_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		175D4F54E144D6D452DC07BCFF967A50 /* BSVKBackGroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSVKBackGroundView.h; sourceTree = "<group>"; };
+		1857DB55CE6D1741FF51787F70CA8157 /* Pods-JSTakePhoto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSTakePhoto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1ABECC7F66E989C83667DBB70FA9E166 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		256311D4725E8A269F562BC5DA98F232 /* Pods-JSTakePhoto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSTakePhoto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27120AA0E19CC5C0E02E9CE435D22CBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2841BC94C6A3AC7BA509C38FA81EC7CD /* IMYWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IMYWebView.m; sourceTree = "<group>"; };
+		2BF45F84CDA77867178E26B43B02B1E0 /* Pods-JSTakePhoto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSTakePhoto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3223572C73396810C2D46CFF83CB8749 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		336FA0B4A6F29F33C4C98F2306CF57AC /* Pods-JSTakePhoto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSTakePhoto_Tests-dummy.m"; sourceTree = "<group>"; };
+		33D71825CB63D84C67AD40926A35009A /* BSVKCameraTypeModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSVKCameraTypeModel.m; sourceTree = "<group>"; };
+		3AE1ACF6179AFE80767FB2364F92831B /* BSVKCameraPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSVKCameraPreview.h; sourceTree = "<group>"; };
+		3DB36091CB6227543A60B2718B815791 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3F68116A40FED83AA5D0A13CD2C53C9A /* JSTakePhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSTakePhoto-dummy.m"; sourceTree = "<group>"; };
+		4049CAE44288D7F1FA0547C4E8BCDC8B /* UIView+BSVKHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSVKHUD.m"; sourceTree = "<group>"; };
+		44CA018D66042D54C58E3AB58E400540 /* Pods-JSTakePhoto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSTakePhoto_Tests-resources.sh"; sourceTree = "<group>"; };
+		45659B715CE7E03A24CEBCD4FAE3CA6F /* BSVKCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSVKCameraController.h; sourceTree = "<group>"; };
+		46508FB171602B442278618060BA4012 /* BSVKCameraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSVKCameraController.m; sourceTree = "<group>"; };
+		4F361739876082DF999F0BDC1FBE7C7C /* Pods-JSTakePhoto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSTakePhoto_Example.modulemap"; sourceTree = "<group>"; };
+		4FE387580BAF9C77384458DB199F5868 /* Pods-JSTakePhoto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSTakePhoto_Example-umbrella.h"; sourceTree = "<group>"; };
+		50385E3EC5C38BA9A982F6CEDC7240CD /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		550648AB2DB869540D6CEA8E2324659B /* BSVKCameraTypeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSVKCameraTypeModel.h; sourceTree = "<group>"; };
+		55B8E8EA418035F6D1B1B1D6D36AF862 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5DF20E92C18C8B20DA9E65574AC52520 /* BSVKWebController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSVKWebController.m; sourceTree = "<group>"; };
+		5F02E3AD446CD3DE443CDE4B2326CF3A /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		652B1F7846F05E07C701061EDFC98F7D /* Pods-JSTakePhoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSTakePhoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		661923E565B75D467AEF77ECB97BC6BD /* Pods-JSTakePhoto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSTakePhoto_Example-resources.sh"; sourceTree = "<group>"; };
+		6A6A3D9468F00838AF507FD3B01BA301 /* BSVKCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSVKCameraView.h; sourceTree = "<group>"; };
+		6FA1459A5E5BB678FE634B9EB7306E5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7578AA8F55E0E4B80AB91BE239542D32 /* Pods-JSTakePhoto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSTakePhoto_Tests.modulemap"; sourceTree = "<group>"; };
+		7A35A519D399D7A2F615927B8BC94E51 /* JSTakePhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSTakePhoto.xcconfig; sourceTree = "<group>"; };
+		7C16DABCE2D824DFB3AD4755341F9CAF /* UIView+BSVKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BSVKHUD.h"; sourceTree = "<group>"; };
+		7EE4301EEDE4CC74839673ADEA373F0A /* IMY_NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IMY_NJKWebViewProgress.m; sourceTree = "<group>"; };
+		83C672631147466FDF4E15EF252A0C83 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		8933088928E997C95812CD32DC4CB08B /* Pods-JSTakePhoto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSTakePhoto_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		91320688D53FE6A8B9F87F19C680D7E4 /* JSTakePhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSTakePhoto.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D3409CC2B57B900A28910E5DC5D6E2 /* IMYWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMYWebView.h; sourceTree = "<group>"; };
+		9737E562206595E908CC89E11F2F24A7 /* UIView+BSVKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSVKAdditions.m"; sourceTree = "<group>"; };
+		97D9BACD62B95D9D1A0CBA7E37683022 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		98906DDDC0D939CD0FE3DB535CD2D0DE /* IMY_NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMY_NJKWebViewProgress.h; sourceTree = "<group>"; };
+		9DC43828928125822F352F36FF0960B7 /* Pods-JSTakePhoto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSTakePhoto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A59F20D13E0C25CD6CEF5D54545D2560 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67066A162AEEACF58F55909ADCF4CD8 /* UIView+BSVKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BSVKAdditions.h"; sourceTree = "<group>"; };
+		A680D04EF83C1D5B29FC66A4E689D1AF /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		ABFDD1862CE9C5A0B6295F7F00F40B88 /* BSVKBackGroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSVKBackGroundView.m; sourceTree = "<group>"; };
+		ADE16260BD3B94FFE609F43E526C653F /* JSTakePhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSTakePhoto-prefix.pch"; sourceTree = "<group>"; };
+		AF9727C99A4877D101870E8AD7FEDF43 /* Pods-JSTakePhoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSTakePhoto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B118B9EEBC4916F7E1F980ACBCE3E7EF /* BSVKCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSVKCameraView.m; sourceTree = "<group>"; };
+		B7427E6F069F7E4D80EBA6BAEDC7236F /* Pods-JSTakePhoto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSTakePhoto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B8F77BD1BAA077C6E0CCE86FD41F4CB5 /* Pods-JSTakePhoto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSTakePhoto_Example-dummy.m"; sourceTree = "<group>"; };
+		C5AB904EB44D5B14897B2F5164E8418D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0AC8FF36CB85275CB1CEC6D13C2F6B9 /* Pods-JSTakePhoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSTakePhoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D8D92CF48221AD3FA1A84A3F1332749E /* Pods_JSTakePhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSTakePhoto_Example.framework; path = "Pods-JSTakePhoto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC707802D4051BEDB8C6820D71704EC3 /* JSTakePhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSTakePhoto-umbrella.h"; sourceTree = "<group>"; };
+		DC712D1455D023726BD9816815C4CBF5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JSTakePhoto/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		DE9522217AAB12D512A39C7B645C9FDD /* Pods-JSTakePhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSTakePhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E144AC350FBE7E6853A30447526ED679 /* JSTakePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSTakePhoto.framework; path = JSTakePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B8B623DAB94B50B4F427F6235B6247 /* BSVKCameraPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSVKCameraPreview.m; sourceTree = "<group>"; };
+		F9D67D10621D285D94AF8D69E49B00E8 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01668A8DFF553DA8084B0C8A9CA3FEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8A1169F36136DFC71678EE68AD940A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB13E27683143AC19D21DCB7916C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE4721B8B1F05B57919EEBBC40FF573 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA2380FB2C6C2FF14ACFA5981858423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62EEF27D4CD50A17945B0533BCC3176C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B912E6E04BAF3980A00CCD82A5E8A5 /* Pods-JSTakePhoto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A59F20D13E0C25CD6CEF5D54545D2560 /* Info.plist */,
+				7578AA8F55E0E4B80AB91BE239542D32 /* Pods-JSTakePhoto_Tests.modulemap */,
+				256311D4725E8A269F562BC5DA98F232 /* Pods-JSTakePhoto_Tests-acknowledgements.markdown */,
+				9DC43828928125822F352F36FF0960B7 /* Pods-JSTakePhoto_Tests-acknowledgements.plist */,
+				336FA0B4A6F29F33C4C98F2306CF57AC /* Pods-JSTakePhoto_Tests-dummy.m */,
+				8933088928E997C95812CD32DC4CB08B /* Pods-JSTakePhoto_Tests-frameworks.sh */,
+				44CA018D66042D54C58E3AB58E400540 /* Pods-JSTakePhoto_Tests-resources.sh */,
+				2BF45F84CDA77867178E26B43B02B1E0 /* Pods-JSTakePhoto_Tests-umbrella.h */,
+				652B1F7846F05E07C701061EDFC98F7D /* Pods-JSTakePhoto_Tests.debug.xcconfig */,
+				D0AC8FF36CB85275CB1CEC6D13C2F6B9 /* Pods-JSTakePhoto_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSTakePhoto_Tests";
+			path = "Target Support Files/Pods-JSTakePhoto_Tests";
+			sourceTree = "<group>";
+		};
+		35092E81BFFF4A56ABCCEB48C22E0BE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F41B5E8BE31CFC6357FB9A0EDA58C /* Pods-JSTakePhoto_Example */,
+				15B912E6E04BAF3980A00CCD82A5E8A5 /* Pods-JSTakePhoto_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3CBC4DA08EFB1414176373E4989B51E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				94D3409CC2B57B900A28910E5DC5D6E2 /* IMYWebView.h */,
+				2841BC94C6A3AC7BA509C38FA81EC7CD /* IMYWebView.m */,
+				6632F81A3A8B6E2CD011CB689C9E9076 /* UIWebViewProgress */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		404F755E156141C8950CC5CC5E8BB1EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F431615FB18A85A771A8DC893DDD57C /* Info.plist */,
+				91320688D53FE6A8B9F87F19C680D7E4 /* JSTakePhoto.modulemap */,
+				7A35A519D399D7A2F615927B8BC94E51 /* JSTakePhoto.xcconfig */,
+				3F68116A40FED83AA5D0A13CD2C53C9A /* JSTakePhoto-dummy.m */,
+				ADE16260BD3B94FFE609F43E526C653F /* JSTakePhoto-prefix.pch */,
+				DC707802D4051BEDB8C6820D71704EC3 /* JSTakePhoto-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSTakePhoto";
+			sourceTree = "<group>";
+		};
+		4249D2326FA1A4868D9D0419F3013D4B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				03538B04B7F32D4E28048BE029E4F421 /* BSVKWebController.h */,
+			);
+			name = Headers;
+			path = JSTakePhoto/Classes/Headers;
+			sourceTree = "<group>";
+		};
+		6632F81A3A8B6E2CD011CB689C9E9076 /* UIWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				98906DDDC0D939CD0FE3DB535CD2D0DE /* IMY_NJKWebViewProgress.h */,
+				7EE4301EEDE4CC74839673ADEA373F0A /* IMY_NJKWebViewProgress.m */,
+			);
+			name = UIWebViewProgress;
+			path = UIWebViewProgress;
+			sourceTree = "<group>";
+		};
+		7495E0E99C5B696D7F740FCC72C34779 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45659B715CE7E03A24CEBCD4FAE3CA6F /* BSVKCameraController.h */,
+				46508FB171602B442278618060BA4012 /* BSVKCameraController.m */,
+				5DF20E92C18C8B20DA9E65574AC52520 /* BSVKWebController.m */,
+			);
+			name = Controller;
+			path = JSTakePhoto/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8DB4821CC1E8ED1AA010954FE53370C7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D1B9CC4E1E5D32F82299656A87ABEDA8 /* Products */,
+				35092E81BFFF4A56ABCCEB48C22E0BE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87A0E7163E69293F7C98E42E37105C56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				550648AB2DB869540D6CEA8E2324659B /* BSVKCameraTypeModel.h */,
+				33D71825CB63D84C67AD40926A35009A /* BSVKCameraTypeModel.m */,
+			);
+			name = Model;
+			path = JSTakePhoto/Classes/Model;
+			sourceTree = "<group>";
+		};
+		8DB4821CC1E8ED1AA010954FE53370C7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D09DA5D34832E1F18D4599C83F075027 /* JSTakePhoto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A2A2C0D14DA3C2B20778657BB4F28987 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A67066A162AEEACF58F55909ADCF4CD8 /* UIView+BSVKAdditions.h */,
+				9737E562206595E908CC89E11F2F24A7 /* UIView+BSVKAdditions.m */,
+				7C16DABCE2D824DFB3AD4755341F9CAF /* UIView+BSVKHUD.h */,
+				4049CAE44288D7F1FA0547C4E8BCDC8B /* UIView+BSVKHUD.m */,
+			);
+			name = Util;
+			path = JSTakePhoto/Classes/Util;
+			sourceTree = "<group>";
+		};
+		B7809DC9255BEC652F048EC72FDF817E /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				1ABECC7F66E989C83667DBB70FA9E166 /* WebViewJavascriptBridge.h */,
+				F9D67D10621D285D94AF8D69E49B00E8 /* WebViewJavascriptBridge.m */,
+				A680D04EF83C1D5B29FC66A4E689D1AF /* WebViewJavascriptBridge_JS.h */,
+				5F02E3AD446CD3DE443CDE4B2326CF3A /* WebViewJavascriptBridge_JS.m */,
+				3223572C73396810C2D46CFF83CB8749 /* WebViewJavascriptBridgeBase.h */,
+				50385E3EC5C38BA9A982F6CEDC7240CD /* WebViewJavascriptBridgeBase.m */,
+				97D9BACD62B95D9D1A0CBA7E37683022 /* WKWebViewJavascriptBridge.h */,
+				83C672631147466FDF4E15EF252A0C83 /* WKWebViewJavascriptBridge.m */,
+			);
+			name = WebViewJavascriptBridge;
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		BC26C76F6703E53D90101534C709D1FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				175D4F54E144D6D452DC07BCFF967A50 /* BSVKBackGroundView.h */,
+				ABFDD1862CE9C5A0B6295F7F00F40B88 /* BSVKBackGroundView.m */,
+				3AE1ACF6179AFE80767FB2364F92831B /* BSVKCameraPreview.h */,
+				E9B8B623DAB94B50B4F427F6235B6247 /* BSVKCameraPreview.m */,
+				6A6A3D9468F00838AF507FD3B01BA301 /* BSVKCameraView.h */,
+				B118B9EEBC4916F7E1F980ACBCE3E7EF /* BSVKCameraView.m */,
+			);
+			name = View;
+			path = JSTakePhoto/Classes/View;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD9CE80FA7D4EEC50B71F598A4E67B47 /* IMYWebView */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1459A5E5BB678FE634B9EB7306E5D /* LICENSE */,
+				27120AA0E19CC5C0E02E9CE435D22CBF /* README.md */,
+				3CBC4DA08EFB1414176373E4989B51E5 /* Classes */,
+			);
+			name = IMYWebView;
+			path = JSTakePhoto/Classes/IMYWebView;
+			sourceTree = "<group>";
+		};
+		D09DA5D34832E1F18D4599C83F075027 /* JSTakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				DC712D1455D023726BD9816815C4CBF5 /* ReplaceMe.m */,
+				7495E0E99C5B696D7F740FCC72C34779 /* Controller */,
+				4249D2326FA1A4868D9D0419F3013D4B /* Headers */,
+				CD9CE80FA7D4EEC50B71F598A4E67B47 /* IMYWebView */,
+				87A0E7163E69293F7C98E42E37105C56 /* Model */,
+				404F755E156141C8950CC5CC5E8BB1EE /* Support Files */,
+				A2A2C0D14DA3C2B20778657BB4F28987 /* Util */,
+				BC26C76F6703E53D90101534C709D1FF /* View */,
+				ED23608A63A0E58E18BC8E37232C4A1F /* WebViewJavascriptBridge */,
+			);
+			name = JSTakePhoto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D1B9CC4E1E5D32F82299656A87ABEDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E144AC350FBE7E6853A30447526ED679 /* JSTakePhoto.framework */,
+				D8D92CF48221AD3FA1A84A3F1332749E /* Pods_JSTakePhoto_Example.framework */,
+				14F3FD914C27DB8F9634A4007D747F3E /* Pods_JSTakePhoto_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED23608A63A0E58E18BC8E37232C4A1F /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				55B8E8EA418035F6D1B1B1D6D36AF862 /* LICENSE */,
+				3DB36091CB6227543A60B2718B815791 /* README.md */,
+				B7809DC9255BEC652F048EC72FDF817E /* WebViewJavascriptBridge */,
+			);
+			name = WebViewJavascriptBridge;
+			path = JSTakePhoto/Classes/WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		FB2F41B5E8BE31CFC6357FB9A0EDA58C /* Pods-JSTakePhoto_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C5AB904EB44D5B14897B2F5164E8418D /* Info.plist */,
+				4F361739876082DF999F0BDC1FBE7C7C /* Pods-JSTakePhoto_Example.modulemap */,
+				084851A5BB0CC9658A7CA8D5AC43CE5C /* Pods-JSTakePhoto_Example-acknowledgements.markdown */,
+				1857DB55CE6D1741FF51787F70CA8157 /* Pods-JSTakePhoto_Example-acknowledgements.plist */,
+				B8F77BD1BAA077C6E0CCE86FD41F4CB5 /* Pods-JSTakePhoto_Example-dummy.m */,
+				B7427E6F069F7E4D80EBA6BAEDC7236F /* Pods-JSTakePhoto_Example-frameworks.sh */,
+				661923E565B75D467AEF77ECB97BC6BD /* Pods-JSTakePhoto_Example-resources.sh */,
+				4FE387580BAF9C77384458DB199F5868 /* Pods-JSTakePhoto_Example-umbrella.h */,
+				DE9522217AAB12D512A39C7B645C9FDD /* Pods-JSTakePhoto_Example.debug.xcconfig */,
+				AF9727C99A4877D101870E8AD7FEDF43 /* Pods-JSTakePhoto_Example.release.xcconfig */,
+			);
+			name = "Pods-JSTakePhoto_Example";
+			path = "Target Support Files/Pods-JSTakePhoto_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3408870F94CD78D449959B192B7B7762 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169841EBF0E87595E21F1D8696B5A249 /* Pods-JSTakePhoto_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF7E4EA4412E997521E70E1EC6C7FF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EAC52248ADD69E5EEB75B6A8DEA331 /* Pods-JSTakePhoto_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B009CBA52924C13238915A0A94FDC7E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDEDA22C2D971B96CA29A837266E629 /* BSVKBackGroundView.h in Headers */,
+				EAEFD8261686E96A30055D178D4E8C71 /* BSVKCameraController.h in Headers */,
+				AD5892A6D43758A0F6D8F6723E37B5BF /* BSVKCameraPreview.h in Headers */,
+				F76EF5BF16D28EC8BBB910AFF34D7770 /* BSVKCameraTypeModel.h in Headers */,
+				C594746F655A57AEDD7594A53EB560E3 /* BSVKCameraView.h in Headers */,
+				6BAD958B2E793E1807E279ABA8F620A5 /* BSVKWebController.h in Headers */,
+				9D22DAE8B5AA631E83E599D80DC478F2 /* IMY_NJKWebViewProgress.h in Headers */,
+				747463180A2E1FA4904228883423AC4C /* IMYWebView.h in Headers */,
+				F5089A2BF89D934D2592DFAD9137C57D /* JSTakePhoto-umbrella.h in Headers */,
+				141D20CA6204BCE5445FC34B97B945C9 /* UIView+BSVKAdditions.h in Headers */,
+				692368AC292209A027C7C44FAFC048B0 /* UIView+BSVKHUD.h in Headers */,
+				CC904F577735ABE3AEDD2065038D3A96 /* WebViewJavascriptBridge.h in Headers */,
+				06918C38C1A4339EF7354FA926DB79A3 /* WebViewJavascriptBridge_JS.h in Headers */,
+				4A091448E49D31327DB2B606AFAB1BC7 /* WebViewJavascriptBridgeBase.h in Headers */,
+				7781B9ACDA05253985B9BA3FC455C277 /* WKWebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18D7EF3C3CF18942CB64914C9C9CA926 /* JSTakePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7185F265DF27DB29A049BF9631E5D00F /* Build configuration list for PBXNativeTarget "JSTakePhoto" */;
+			buildPhases = (
+				8E0BD3247ECD131FB53C9D68F2345C19 /* Sources */,
+				A6EB13E27683143AC19D21DCB7916C4A /* Frameworks */,
+				B009CBA52924C13238915A0A94FDC7E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSTakePhoto;
+			productName = JSTakePhoto;
+			productReference = E144AC350FBE7E6853A30447526ED679 /* JSTakePhoto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78B083F8E9B205D58225F6A46DD300FC /* Pods-JSTakePhoto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D67092C699F3ACE7D402B5AE721A8C /* Build configuration list for PBXNativeTarget "Pods-JSTakePhoto_Example" */;
+			buildPhases = (
+				1328264EAC8FC68248FCCEC8DE110967 /* Sources */,
+				01668A8DFF553DA8084B0C8A9CA3FEAB /* Frameworks */,
+				3408870F94CD78D449959B192B7B7762 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2742A69BABE613D1C00F2412D33C125C /* PBXTargetDependency */,
+			);
+			name = "Pods-JSTakePhoto_Example";
+			productName = "Pods-JSTakePhoto_Example";
+			productReference = D8D92CF48221AD3FA1A84A3F1332749E /* Pods_JSTakePhoto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		793BB753078EBD6B8B107DFCA1587D1A /* Pods-JSTakePhoto_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6905CEE1E664982CB69C312121B93B03 /* Build configuration list for PBXNativeTarget "Pods-JSTakePhoto_Tests" */;
+			buildPhases = (
+				2FB297DD32B0DB74ABF3029A338B870E /* Sources */,
+				DDA2380FB2C6C2FF14ACFA5981858423 /* Frameworks */,
+				5BF7E4EA4412E997521E70E1EC6C7FF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSTakePhoto_Tests";
+			productName = "Pods-JSTakePhoto_Tests";
+			productReference = 14F3FD914C27DB8F9634A4007D747F3E /* Pods_JSTakePhoto_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D1B9CC4E1E5D32F82299656A87ABEDA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D7EF3C3CF18942CB64914C9C9CA926 /* JSTakePhoto */,
+				78B083F8E9B205D58225F6A46DD300FC /* Pods-JSTakePhoto_Example */,
+				793BB753078EBD6B8B107DFCA1587D1A /* Pods-JSTakePhoto_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1328264EAC8FC68248FCCEC8DE110967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCA24F07A716D39A120D1989A441BA8 /* Pods-JSTakePhoto_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB297DD32B0DB74ABF3029A338B870E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400148F622EF0901C4A7205CD90C7BBD /* Pods-JSTakePhoto_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0BD3247ECD131FB53C9D68F2345C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CB55C5E8D6EE39A592FA8D644AC233 /* BSVKBackGroundView.m in Sources */,
+				47B5904AE14133E078249F3A90C9F98A /* BSVKCameraController.m in Sources */,
+				B5D31BE05D80D82CCAB672F5CEE16713 /* BSVKCameraPreview.m in Sources */,
+				4D9D58ED34DB074432824D9809C64AA2 /* BSVKCameraTypeModel.m in Sources */,
+				769839194F3C513F83BBC06D69FD38AD /* BSVKCameraView.m in Sources */,
+				C6D0D1B47D5FCA007AEFAAA4D83D37AC /* BSVKWebController.m in Sources */,
+				D38F0230815512D34D803FA4DEE6F379 /* IMY_NJKWebViewProgress.m in Sources */,
+				F03193FF921D740F7D6586F1A46E0F6F /* IMYWebView.m in Sources */,
+				7996C18405D17E67D201327EF2A8437C /* JSTakePhoto-dummy.m in Sources */,
+				4E1FB68034C1007D370AE25BFEA24B7B /* LICENSE in Sources */,
+				4E1FB68034C1007D370AE25BFEA24B7B /* LICENSE in Sources */,
+				33820E287A88811BDB3BFFE3B1AB2564 /* README.md in Sources */,
+				33820E287A88811BDB3BFFE3B1AB2564 /* README.md in Sources */,
+				2C6D7FC1D2B6CC3668F479DD4BDCFBB9 /* ReplaceMe.m in Sources */,
+				45F89EFEA13546C9D4E0E9F24F55F760 /* UIView+BSVKAdditions.m in Sources */,
+				D43856F75D0459B584C4E884EF658FE5 /* UIView+BSVKHUD.m in Sources */,
+				55BE59F51F0D474B3472F59588B66D29 /* WebViewJavascriptBridge.m in Sources */,
+				63C159DD012887CB7289953BA3A86F7F /* WebViewJavascriptBridge_JS.m in Sources */,
+				3D3EA78D2A16B432B99963D4CD496BD7 /* WebViewJavascriptBridgeBase.m in Sources */,
+				C6A75A222CF89A74D91A12DF367BA324 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2742A69BABE613D1C00F2412D33C125C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSTakePhoto;
+			target = 18D7EF3C3CF18942CB64914C9C9CA926 /* JSTakePhoto */;
+			targetProxy = 2CAEC69DB34718A59A720140D34E2305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		119BB3A832A650BA4FD0A47CC7DEF764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9727C99A4877D101870E8AD7FEDF43 /* Pods-JSTakePhoto_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSTakePhoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSTakePhoto_Example/Pods-JSTakePhoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSTakePhoto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F863EBEB3517F14B3D469BAA12F529E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652B1F7846F05E07C701061EDFC98F7D /* Pods-JSTakePhoto_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSTakePhoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSTakePhoto_Tests/Pods-JSTakePhoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSTakePhoto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9819812EEF0B7A0D51FD4082737A2E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A35A519D399D7A2F615927B8BC94E51 /* JSTakePhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSTakePhoto/JSTakePhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSTakePhoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSTakePhoto/JSTakePhoto.modulemap";
+				PRODUCT_NAME = JSTakePhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B02C64C10C540D1E5FD6DF85C055DCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A35A519D399D7A2F615927B8BC94E51 /* JSTakePhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSTakePhoto/JSTakePhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSTakePhoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSTakePhoto/JSTakePhoto.modulemap";
+				PRODUCT_NAME = JSTakePhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE2F17136BF7643DD48AF403911D566B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9522217AAB12D512A39C7B645C9FDD /* Pods-JSTakePhoto_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSTakePhoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSTakePhoto_Example/Pods-JSTakePhoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSTakePhoto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FFB2900D0BBC5D134106D3CDEF2DD02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0AC8FF36CB85275CB1CEC6D13C2F6B9 /* Pods-JSTakePhoto_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSTakePhoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSTakePhoto_Tests/Pods-JSTakePhoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSTakePhoto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D67092C699F3ACE7D402B5AE721A8C /* Build configuration list for PBXNativeTarget "Pods-JSTakePhoto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2F17136BF7643DD48AF403911D566B /* Debug */,
+				119BB3A832A650BA4FD0A47CC7DEF764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6905CEE1E664982CB69C312121B93B03 /* Build configuration list for PBXNativeTarget "Pods-JSTakePhoto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F863EBEB3517F14B3D469BAA12F529E /* Debug */,
+				FFB2900D0BBC5D134106D3CDEF2DD02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7185F265DF27DB29A049BF9631E5D00F /* Build configuration list for PBXNativeTarget "JSTakePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9819812EEF0B7A0D51FD4082737A2E95 /* Debug */,
+				B02C64C10C540D1E5FD6DF85C055DCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

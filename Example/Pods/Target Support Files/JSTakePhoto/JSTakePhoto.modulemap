@@ -1,0 +1,6 @@
+framework module JSTakePhoto {
+  umbrella header "JSTakePhoto-umbrella.h"
+
+  export *
+  module * { export * }
+}

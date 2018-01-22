@@ -7,12 +7,19 @@
 //
 
 #import "BSVKAppDelegate.h"
+#import <JSTakePhoto/BSVKWebController.h>
 
 @implementation BSVKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    BSVKWebController *webCon = [BSVKWebController new];
+    webCon.strUrl = @"https://testpm.haiercash.com:9002/hf/#!/test/webview.html";
+    webCon.title = @"百思为科JS交互Demo";
+    self.window.rootViewController = webCon;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

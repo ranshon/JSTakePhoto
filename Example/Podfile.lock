@@ -1,0 +1,16 @@
+PODS:
+  - JSTakePhoto (0.1.0)
+
+DEPENDENCIES:
+  - JSTakePhoto (from `../`)
+
+EXTERNAL SOURCES:
+  JSTakePhoto:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JSTakePhoto: e2ecc3cb2175f5529d7ac386ac343532f43c1395
+
+PODFILE CHECKSUM: 927f289cdf3ae0fba1f1f87364f3f4cf6fa8fdb4
+
+COCOAPODS: 1.3.1
